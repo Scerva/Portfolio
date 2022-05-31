@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sergio Cervantes</title>
+        <style>
+            nav {border-bottom: 3px solid rgb(255, 255, 255);}
+            body {padding: 5;margin: 20;background: #ffffff;}
+            .slick {font-family: OCR A Std, monospace}
+            .large_words {font-size: 120%;}
+            .sub {font-size: 80%; text-align: right; float: right; width: 60%;}
+            .grade_sub {font-size:70%; text-align: right; float: right; width: 100%; margin-bottom: 2em;}
+            .rightside {text-align: right; float: right; width: 100%;}
+            berkeley_cols {animation: color-change 3s infinite;}
+            @keyframes color-change {0% {color: royalblue;} 50% { color: goldenrod;} 100% { color: royalblue;}}
+            econ_cols {animation: money 5s infinite;}
+            @keyframes money {0% {color: rgb(57, 199, 104);} 25% { color: rgb(6, 77, 30);} 
+                                50% { color: rgb(0, 0, 0);} 75% { color: rgb(12, 77, 30);} 100% { color: rgb(57, 199, 104);}}
+            data_science_cols {animation: datasci 3s infinite;}
+            @keyframes datasci {0% {color: orange;} 50% { color: rgb(206, 11, 11);} 100% { color: orange;}}
+        </style>
+    </head>
+
+    <body>
+        <div class="slick"><h1>Welcome to my portfolio!</h1>
+        <nav>
+        </nav>
+            <div class="large_words">
+                <p align='left'>Hi, my name is Sergio Cervantes.</div> This site showcases my projects and experience/education.</p>
+
+            
+            <p align="left">I graduated from 
+                <a href="https://www.berkeley.edu/" target="_blank"><berkeley_cols><b>UC Berkeley</b></berkeley_cols></a>  
+                with a B.A. in 
+                <a href="https://www.econ.berkeley.edu/" target="_blank"><econ_cols><b>Economics</b></econ_cols></a>
+                 and a minor in 
+                <a href="https://data.berkeley.edu/academics/data-science-undergraduate-studies/data-science-minor" target="_blank"><data_science_cols><b>Data Science</b></data_science_cols></a>  in Summer 2022.
+                </p>
+            
+
+            <h2><div class="rightside">Applications</div></h2>
+
+            <div class="rightside">
+                <a href="https://scerva.shinyapps.io/sergiocervantes-project2/" target="_blank">Savings Rate Calculator</a></div>
+            
+            <div class="sub">
+                This calculates a series of projected years needed from an investment as a function of a myriad of variables, 
+                    such as the interest rate, savings rate, annual income, a target $ amount and whether a recession has occured 
+                    (just decreases the investor's savings rate by an arbitrary value). <br>
+                <a href="https://www.youtube.com/watch?v=oLibmPWR5kQ">Here</a> is a 3 minute explanation of the application.
+            </div>
+            
+            <div class="grade_sub">Grade: 10/10</div>
+            <div class="rightside">
+                <a href="https://scerva.shinyapps.io/SOTUWordAnalysis/" target="_blank">State of the Union Address Word Analysis</a></div>
+ 
+            <div class="sub">
+                This allows for bag-of-words text analysis of the previous 20 State of the Union Addresses. 
+                    One can find the frequency of each word or phrase (up to four words), as well as plot the frequency 
+                     of any word throughout time. <br>
+                <a href="https://youtu.be/N0d9NxZagTU">Here</a> is a 4 minute explanation of the application.
+            </div>
+            <div class="grade_sub">Grade: 9.75/10</div>
+
+            <h2><div class="rightside">Data Analysis</div></h2>
+
+            <div class="rightside"><a href="https://drive.google.com/file/d/1zdGiKAQU0Ew5JB5Olz49lQ4EUdUYjZVx/view?usp=sharing", target="_blank">Cholangitis Study</a></div>
+            <div class="sub">
+                This report uses <b>R tidyverse and other libraries</b> to clean and explore a dataset coming from a randomized, 
+                    double-blinded, placebo-controlled clinical trial of the immunosuppressive 
+                    drug D-penicillamine at the Mayo Clinic. Major points of exploration are linear and logistic 
+                    regression of the number of days a patient survives from the point of registration, and the status of a
+                    patient at the end of a study, respectively. This is supplemented by multivariate data visualization.
+            </div>
+            <div class="grade_sub">Grade: 78/80</div>
+            <div class="rightside">
+                <a href="https://drive.google.com/file/d/1rwPoR1OOgtZrpvuaPfyHSuwkBwWrbqqA/view?usp=sharing" target="_blank">Finding the best fictional NBA player</a>
+            </div>
+            <div class="sub">
+                This report uses <b>base Python, pandas and visualization packages</b> to find the objective
+                    best player from a fictional NBA timeline I started when I was 12 through 19 years old
+                    with the help of my imagination and NBA2K's MyLeague mode. Using a dataset of 87 notable players' statistics,
+                    I take as many factors into acocunt to come up with a ranking of each player.
+            </div>
+            <div class="grade_sub"></div>
+            <div class="rightside">
+                <a href="https://raw.githubusercontent.com/Scerva/cool-tools/main/Kaprekar's%20Routine%20Count.py" target="_blank">Kaprekar Routine Counter</a>
+            </div>
+            <div class="sub">
+                <a href="https://en.wikipedia.org/wiki/6174_(number)" target="_blank">Kaprekar's number (6174)</a> is the end-result of a sequence,
+                similar to the hailstone sequence. Read the full documentation in the link above. This function, created in <b>Python</b>, counts the amount of
+                routines needed to reach 6174 in the sequence. The function accounts for all requirements for first value in the sequence.
+            </div>
+            Connect with me on <a href="https://www.linkedin.com/in/sergiocervantes-cal/" target="_blank">LinkedIn</a>!
+            <br>
+            Find me on <a href="https://github.com/Scerva" target="_blank">Github</a>!
+            </div>
+        </div>
+    </body>
+</html>
+
